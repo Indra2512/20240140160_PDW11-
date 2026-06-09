@@ -1,4 +1,4 @@
-import React from 'react';
+import MemberCard from './MemberCard';
 
 function MemberCard(props) {
     const {name, generation, birthday, debut, lore, image, color} = props.memberData;
