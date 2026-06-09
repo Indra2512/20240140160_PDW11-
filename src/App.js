@@ -1,6 +1,6 @@
 import React from 'react';
 import { HoloLiveIDMember } from './DataMember';
-import MemberCard from './components/MemberCard';
+import MemberCard from './MemberCard';
 
 function App() {
   const appStyle = {
