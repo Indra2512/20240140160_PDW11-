@@ -1,5 +1,5 @@
 import React from 'react';
-import { HoloIDMember } from './dataMember';
+import { HoloIDMember } from './DataMember';
 import MemberCard from './MemberCard';
 
 function App() {
