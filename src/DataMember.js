@@ -12,7 +12,7 @@ export const HoloIDMember = [
     {
         id: 2,
         name: "Moona Hoshinova",
-        gneration: "Gen 1",
+        generation: "Gen 1",
         birthday: "February 6",
         debut: "April 11, 2020",
         lore: "Gadis yang memiliki hubungan dekat dengan langit malam/bulan. selain menjadi seorang model dan mahasiswi biasa, ia juga memiliki koneksi magis sebagai entitas kosmik",
