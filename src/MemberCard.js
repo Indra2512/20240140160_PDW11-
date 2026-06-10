@@ -18,18 +18,48 @@ function MemberCard(props) {
         transition: `transform 0.2s ease-in-out`
     };
 
+    const imageContainerStyle = {
+        width: '100%',
+        height: '240px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        overflow: 'hidden',
+        marginBottom: '15px',
+        borderRadius: '8px',
+        backgroundColor: '#f8f9fa'
+    };
+
+    const imageStyle = {
+        maxHeight: '100%',
+        maxWidht: '100%',
+        objectFit: 'contain'
+    };
+
     return (
-        <div style={cardStyle}>
-            <img 
-                src={image}
-                alt={name}
-                style={{ width: '100%', borderRadius: '4px', marginBottom: '15px' }}
-            />
-            <h3 style={{ margin: '0 0 5px 0', color: '#333'}}>{name}</h3>
-            <h6 style={{ margin: '0 0 15px 0', color: color }}>{generation}</h6>
-            <p style={{ fontSize: '14px', lineHeight: '1.5', color: '#555' }}>
+        <div style={cardStyle} className="member-card">
+            <div style={imageContainerStyle}>
+                <img
+                    src={image}
+                    alt={name}
+                    style={imageStyle}
+                />
+            </div>
+
+            {/* Teks */}
+            <h3 style={{ margin: '0 0 5px 0', color: '#2c3e50', fontSize: '18px', fontWeight: 'bold'}}>{name}</h3>
+            <h6 style={{ margin: '0 0 12px 0', color: color, fontSize: '13px', letterSpacing: '0.5px' }}>{generation}</h6>
+
+            <div style={{
+                fontSize: '13.5px',
+                lineHeight: '1.6',
+                color: '#555',
+                overflow: 'auto',
+                paddingRight: '5px',
+                flexGrow: 1
+            }}>
                 {lore}
-            </p>
+            </div>
         </div>
     );
 }
