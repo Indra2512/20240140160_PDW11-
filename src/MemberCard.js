@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { useTransition } from 'react';
 
 function MemberCard(props) {
     const {name, generation, birthday, debut, lore, image, color} = props.memberData;
 
     const cardStyle = {
         borderTop: `6px solid ${color}`,
-        boxShadow: `0 4px 8px rgba(0,0,0,0,1)`,
-        borderRadius: `8px`,
+        boxShadow: `0 4px 12px rgba(0,0,0,0.08)`,
+        borderRadius: `12px`,
         padding: `20px`,
         backgroundColor: `#fff`,
         margin: `15px`,
-        maxWidth: `300px`,
-        display: `inline-block`,
-        verticalAlign: `top`,
-        textAlign: `left`
+        width: `280px`,
+        height: `520px`,
+        display: `flex`,
+        flexDirection: `column`,
+        textAlign: `left`,
+        transition: `transform 0.2s ease-in-out`
     };
 
     return (
