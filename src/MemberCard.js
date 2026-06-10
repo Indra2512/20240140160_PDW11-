@@ -40,7 +40,7 @@ function MemberCard(props) {
         <div style={cardStyle} className="member-card">
             <div style={imageContainerStyle}>
                 <img
-                    src={image}
+                    src={process.env.PUBLIC_URL + '/' + image}
                     alt={name}
                     style={imageStyle}
                 />
