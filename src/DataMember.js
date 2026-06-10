@@ -56,7 +56,7 @@ export const HoloIDMember = [
         birthday: "September 9",
         debut: "December 6, 2020",
         lore: "Seorang putri merak atau burung sihir dari kerajaan bulu. karena alasan tertentu yang berkaitan dengan dunianya, ia menyusup ke dunia manusia dan mencoba berbaur melalui aktivitas VTuber",
-        image: "/HoloLive/Rine.png",
+        image: "/HoloLive/Reine.png",
         color: "#1e6075"
     },
     {
