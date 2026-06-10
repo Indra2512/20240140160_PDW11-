@@ -6,7 +6,7 @@ export const HoloIDMember = [
         birthday: "January 15",
         debut: "April 10, 2020",
         lore: "Gadis tupai dari hutan sihir yang tersesat di dnia manusia. karena suatu keadaan, ia tinggal bersama seorang perempuan yang lebih tua, dan memutuskan menjadi VTuber untuk membalas budi.",
-        image: "/HoloLive/Risu.png",
+        image: "HoloLive/Risu.png",
         color: "#d7a15c"
     },
     {
@@ -16,7 +16,7 @@ export const HoloIDMember = [
         birthday: "February 6",
         debut: "April 11, 2020",
         lore: "Gadis yang memiliki hubungan dekat dengan langit malam/bulan. selain menjadi seorang model dan mahasiswi biasa, ia juga memiliki koneksi magis sebagai entitas kosmik",
-        image: "/HoloLive/Moona.png",
+        image: "HoloLive/Moona.png",
         color: "#6b5b95"
     },
     {
@@ -26,7 +26,7 @@ export const HoloIDMember = [
         birthday: "july 15",
         debut: "April 12, 2020",
         lore: "Putri alien dari luar angkasa yang melarikan diri dari rumah dan datang ke bumi. karena jatuh cinta dengan budaya bumi, ia memilih tinggal dan mulai kuliah di sekolah desain",
-        image: "/HoloLive/Iofi.png",
+        image: "HoloLive/Iofi.png",
         color: "#92a8d1"
     },
     {
@@ -46,7 +46,7 @@ export const HoloIDMember = [
         birthday: "March 6",
         debut: "December 5, 2020",
         lore: "Gadis yang sebenarnya adalah sebuah keris pusaka buatan empu legendaris yang diberikan raga manusia. ia memiliki sifat tenang dan sangat trampil dalam berbagai ilmu pedang dan magis",
-        image: "/HoloLive/Anya.png",
+        image: "HoloLive/Anya.png",
         color: "#dfcfa5"
     },
     {
@@ -56,7 +56,7 @@ export const HoloIDMember = [
         birthday: "September 9",
         debut: "December 6, 2020",
         lore: "Seorang putri merak atau burung sihir dari kerajaan bulu. karena alasan tertentu yang berkaitan dengan dunianya, ia menyusup ke dunia manusia dan mencoba berbaur melalui aktivitas VTuber",
-        image: "/HoloLive/Reine.png",
+        image: "HoloLive/Reine.png",
         color: "#1e6075"
     },
     {
@@ -66,7 +66,7 @@ export const HoloIDMember = [
         birthday: "November 7",
         debut: "March 25, 2022",
         lore: "Anggota rekrutan ke-7 dari Secret Archive Unit dengan codename V.7. ia ditugaskan untuk mengumpulkan dan merawat arsip virtual, meskipun ia sering ceroboh jika tidak berpedoman pada manual",
-        image: "/HoloLive/Zeta.png",
+        image: "HoloLive/Zeta.png",
         color: "#7a889b"
     },
     {
@@ -76,7 +76,7 @@ export const HoloIDMember = [
         birthday: "August 30",
         debut: "March 26, 2022",
         lore: "Seorang pandai besi keturunan ras pengrajin yanng tinggal di wilayah terpencil. ia mengembara untuk mencari material legendaris, dan secara tidak sengaja membuka portal hingga ia bisa menjalin koneksi ke dunia virtual",
-        image: "/HoloLive/Kaela.png",
+        image: "HoloLive/Kaela.png",
         color: "#cca43b"
     },
     {
@@ -86,7 +86,7 @@ export const HoloIDMember = [
         birthday: "December 12",
         debut: "March 27, 2022",
         lore: "Gadis indigo yang sanatai, namun sebenarnya adalah titisan dari pawang hujan magis terkuat di klannya. Ia sering melakukan siaran langsung untuk mengekspresikan jati dirinya",
-        image: "/HoloLive/Kobo.png",
+        image: "HoloLive/Kobo.png",
         color: "#5dade2"
     }
 ];
