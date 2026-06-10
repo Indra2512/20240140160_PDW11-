@@ -31,7 +31,7 @@ function App() {
 
       <main style={containerStyle}>
         {/* Melakukan perulangan data member untuk dirender ke dalam komponen */}
-        {HoloLiveIDMember.map((member) => (
+        {HoloIDMember.map((member) => (
           <MemberCard key={member.id} memberData={member} />
         ))}
       </main>
